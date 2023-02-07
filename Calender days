@@ -1,0 +1,29 @@
+
+
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    printf("Enter the date of month\n");
+    scanf("%d",&n);
+    switch(n){
+        case 28:
+        printf("February in non leap year\n");
+        break;
+        case 29:
+        printf("February in leap year\n");
+        break;
+        case 30:
+        printf("April june september november\n");
+        break;
+        case 31:
+        printf("jaunuary march may july august october december\n");
+        break;
+        default :
+        printf("invalid\n");
+    
+    }
+
+    return 0;
+}
